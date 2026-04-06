@@ -166,7 +166,7 @@ export const SkeletonThree = () => {
 
 
 
-export const SkeletonThree = () => {
+export const SkeletonFour = () => {
   return (
     <a
       href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
