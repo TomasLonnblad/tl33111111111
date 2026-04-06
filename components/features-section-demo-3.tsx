@@ -33,6 +33,16 @@ export default function FeaturesSectionDemo() {
     },
     
 
+    {
+      title: "Watch our AI on YouTube",
+      description:
+        "Whether its you or Tyler Durden, you can get to know about our product on YouTube",
+      skeleton: <SkeletonFour />,
+      className:
+        "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
+    },
+
+    
   ];
   return (
     <div className="relative z-20 mx-auto max-w-7xl py-10 lg:py-40">
@@ -152,6 +162,37 @@ export const SkeletonThree = () => {
     </a>
   );
 };
+
+
+
+
+export const SkeletonThree = () => {
+  return (
+    <a
+      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
+      target="__blank"
+      className="group/image relative flex h-full gap-10"
+    >
+      <div className="group mx-auto h-full w-full bg-transparent dark:bg-transparent">
+        <div className="relative flex h-full w-full flex-1 flex-col space-y-2">
+          {/* TODO */}
+          <IconBrandYoutubeFilled className="absolute inset-0 z-10 m-auto h-20 w-20 text-red-500" />
+          <img
+            src="https://assets.aceternity.com/fireship.jpg"
+            alt="header"
+            width={800}
+            height={800}
+            className="aspect-square h-full w-full rounded-sm object-cover object-center blur-none transition-all duration-200 group-hover/image:blur-md"
+          />
+        </div>
+      </div>
+    </a>
+  );
+};
+
+
+
+
 
 export const SkeletonTwo = () => {
   const images = [
