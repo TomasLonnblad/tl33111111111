@@ -178,7 +178,7 @@ export const SkeletonFour = () => {
           {/* TODO */}
           <IconBrandYoutubeFilled className="absolute inset-0 z-10 m-auto h-20 w-20 text-red-500" />
           <img
-            src="https://assets.aceternity.com/fireship.jpg"
+            src="https://tomaslonnblad.github.io/3.jpg"
             alt="header"
             width={800}
             height={800}
