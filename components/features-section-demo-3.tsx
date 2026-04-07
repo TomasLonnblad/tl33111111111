@@ -170,7 +170,7 @@ export const SkeletonFour = () => {
 
     
     <div className="flex h-[10rem] w-full items-center justify-center">
-      <ImagesBadgeDemo
+      <ImagesBadge
         text="Introducing Agenforce Marketing Template"
         images={[
           "https://tomaslonnblad.github.io/jagx.jpg",
