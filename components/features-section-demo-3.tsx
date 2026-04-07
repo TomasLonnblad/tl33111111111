@@ -168,11 +168,7 @@ export const SkeletonThree = () => {
 
 export const SkeletonFour = () => {
   return (
-    <a
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
-      target="__blank"
-      className="group/image relative flex h-full gap-10"
-    >
+  
 
 
     <div className="flex h-[10rem] w-full items-center justify-center">
@@ -187,7 +183,7 @@ export const SkeletonFour = () => {
 
       
     </div>
-      </a>
+      
 
       
   );
