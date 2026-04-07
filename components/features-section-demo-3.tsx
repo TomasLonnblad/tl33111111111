@@ -170,7 +170,7 @@ export const SkeletonThree = () => {
 export const SkeletonFour = () => {
   return (
 
-
+    
     <a
       href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
       target="__blank"
@@ -178,7 +178,7 @@ export const SkeletonFour = () => {
     >
     
     <div className="flex h-[10rem] w-full items-center justify-center">
-      <ImagesBadge
+      <ImagesBadgeDemo
         text="Introducing Agenforce Marketing Template"
         images={[
           "https://tomaslonnblad.github.io/jagx.jpg",
