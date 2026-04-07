@@ -174,7 +174,7 @@ export const SkeletonFour = () => {
       className="group/image relative flex h-full gap-10"
     >
 
-
+</a>
     <div className="flex h-[10rem] w-full items-center justify-center">
       <ImagesBadge
         text="Introducing Agenforce Marketing Template"
@@ -185,7 +185,7 @@ export const SkeletonFour = () => {
         ]}
       />
 
-      </a>
+      
     </div>
 
       
