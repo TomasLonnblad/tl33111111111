@@ -5,6 +5,7 @@ import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 import { IconBrandYoutubeFilled } from "@tabler/icons-react";
+import { ImagesBadge } from "@/components/ui/images-badge";
 
 export default function FeaturesSectionDemo() {
   const features = [
