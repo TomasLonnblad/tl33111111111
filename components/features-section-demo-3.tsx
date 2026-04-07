@@ -173,25 +173,19 @@ export const SkeletonFour = () => {
 
 
     
-      <a
-      href="https://www.youtube.com/watch?v=RPa3_AD1_Vs"
-      target="__blank"
-      className="group/image relative flex h-full gap-10"
-    >
-      <div className="group mx-auto h-full w-full bg-transparent dark:bg-transparent">
-        <div className="relative flex h-full w-full flex-1 flex-col space-y-2">
-          {/* TODO */}
-          <IconBrandYoutubeFilled className="absolute inset-0 z-10 m-auto h-20 w-20 text-red-500" />
-          <img
-            src="https://assets.aceternity.com/fireship.jpg"
-            alt="header"
-            width={800}
-            height={800}
-            className="aspect-square h-full w-full rounded-sm object-cover object-center blur-none transition-all duration-200 group-hover/image:blur-md"
-          />
-        </div>
-      </div>
-    </a>
+      
+export default function ImagesBadge() {
+  return (
+    <div className="flex h-[10rem] w-full items-center justify-center">
+      <ImagesBadge
+        text="Introducing Agenforce Marketing Template"
+        images={[
+          "https://tomaslonnblad.github.io/jagx.jpg",
+          "https://tomaslonnblad.github.io/6.jpg",
+          "https://tomaslonnblad.github.io/7.jpg",
+        ]}
+      />
+    </div>
 
       
   );
