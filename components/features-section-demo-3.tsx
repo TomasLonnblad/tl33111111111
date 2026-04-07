@@ -184,6 +184,8 @@ export const SkeletonFour = () => {
           "https://tomaslonnblad.github.io/7.jpg",
         ]}
       />
+
+      </a>
     </div>
 
       
