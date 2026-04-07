@@ -169,13 +169,8 @@ export const SkeletonThree = () => {
 
 export const SkeletonFour = () => {
   return (
-  
 
 
-    
-      
-export default function ImagesBadge() {
-  return (
     <div className="flex h-[10rem] w-full items-center justify-center">
       <ImagesBadge
         text="Introducing Agenforce Marketing Template"
